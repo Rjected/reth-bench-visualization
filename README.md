@@ -51,7 +51,7 @@ python combined_latency_output.py <path_to_csv_file>
 
 ### Gas Usage
 
-The expected CSV format follows the output of the `reth-bench` command:
+The expected CSV format follows the `TotalGasRow` output of the `reth-bench` command:
 
 ```
 block_number,gas_used,time
@@ -62,7 +62,7 @@ block_number,gas_used,time
 
 ### RPC Latency
 
-The expected CSV format follows the output of the `reth-bench` command:
+The expected CSV format follows the `CombinedResult` output of the `reth-bench` command:
 
 ```
 gas_used,new_payload_latency,fcu_latency,total_latency
