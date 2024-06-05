@@ -16,7 +16,7 @@ This accounts for any delays in fetching blocks from a data source, so may be on
 python total_gas_output.py <path_to_csv_file>
 ```
 
-### 2. RPC Latency Comparison
+### RPC Latency Comparison
 
 This script analyzes the latency for two types of RPC calls: `newPayload` and `forkchoiceUpdated`. It plots the latency of each call in the input.
 It also plots the gas per second, using only the duration of the engine RPC calls as the time taken to process a block.
